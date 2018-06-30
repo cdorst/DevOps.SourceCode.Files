@@ -14,6 +14,9 @@ namespace DevOps.SourceCode.Files
     /// <summary>Objects of abstract <seealso cref="SourceCodeFile"/> type describe files that can be written into the file system at a specified <seealso cref="Path"/> under the current working directory</summary>
     public abstract class SourceCodeFile
     {
+        public SourceCodeFile() { }
+        public SourceCodeFile(in string path) => Path = path;
+
         /// <summary>The file path under the repository root (including file name and extension)</summary>
         public string Path { get; set; }
 
