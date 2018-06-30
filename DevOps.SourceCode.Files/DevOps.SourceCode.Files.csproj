@@ -1,7 +1,21 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>cdorst</Authors>
+    <Copyright>Copyright © Christopher Dorst</Copyright>
+    <Description>Contains the `SourceCodeFile` abstract base class</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIconUrl>https://cdorst-dev.azureedge.net/nuget/package-icon-64.png</PackageIconUrl>
+    <PackageId>CDorst.DevOps.SourceCode.Files</PackageId>
+    <PackageLicenseUrl>https://github.com/cdorst/DevOps.SourceCode.Files/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/cdorst/DevOps.SourceCode.Files</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/cdorst/DevOps.SourceCode.Files</RepositoryUrl>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
 </Project>
