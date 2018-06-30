@@ -8,7 +8,7 @@
   <PropertyGroup>
     <Authors>cdorst</Authors>
     <Copyright>Copyright © Christopher Dorst</Copyright>
-    <Description>Contains the `SourceCodeFile` abstract base class</Description>
+    <Description>Contains the SourceCodeFile abstract base class</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageIconUrl>https://cdorst-dev.azureedge.net/nuget/package-icon-64.png</PackageIconUrl>
     <PackageId>CDorst.DevOps.SourceCode.Files</PackageId>
